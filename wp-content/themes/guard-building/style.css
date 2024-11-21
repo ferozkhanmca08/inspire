@@ -660,6 +660,7 @@ textarea {
 }
 
 .main-navigation ul ul {
+	display:block;
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 	float: left;
 	position: absolute;
@@ -680,7 +681,8 @@ textarea {
 }
 
 .main-navigation ul ul a {
-	width: 200px;
+	
+	width: 250px;
 }
 
 .main-navigation ul li:hover > ul,
@@ -1009,4 +1011,29 @@ textarea {
 	border-bottom: 2px solid red;
 	
 }
+.menu-top-menu-container{
+	text-align: center;
+    padding: 30px 8px;
+	width: auto;
+    display: block;      
+    line-height: 1.2;
+}
+.menu-top-menu-container ul {	      
+    text-align:center;
+    color:#EEEEEE;
+    background-color: #205081;
+    border: transparent;
+    margin:0; 
+    padding:0;
+    list-style:none;
+    position:relative;
+    z-index:999999990;
+    border-radius: 3px;
+
+}
+
+.main-navigation ul ul{
+	display: block;
+}
+
 

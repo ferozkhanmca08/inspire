@@ -53,7 +53,10 @@ function guard_building_setup() {
 		)
 	);
 
-	register_nav_menus(array('footer'=>esc_html__( 'Footer', 'guard-building')));
+	register_nav_menus(array('footer1'=>esc_html__( 'Footer1', 'guard-building')));
+	register_nav_menus(array('footer2'=>esc_html__( 'Footer2', 'guard-building')));
+	register_nav_menus(array('footer3'=>esc_html__( 'Footer3', 'guard-building')));
+	register_nav_menus(array('footer4'=>esc_html__( 'Footer4', 'guard-building')));
 
 	/*
 		* Switch default core markup for search form, comment form, and comments
