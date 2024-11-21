@@ -53,6 +53,8 @@ function guard_building_setup() {
 		)
 	);
 
+	register_nav_menus(array('footer'=>esc_html__( 'Footer', 'guard-building')));
+
 	/*
 		* Switch default core markup for search form, comment form, and comments
 		* to output valid HTML5.
@@ -134,12 +136,14 @@ function guard_building_widgets_init() {
 }
 add_action( 'widgets_init', 'guard_building_widgets_init' );
 
+
 /**
  * Enqueue scripts and styles.
  */
 function guard_building_scripts() {
-	wp_enqueue_style( 'guard-building-style', get_stylesheet_uri(), array(), _S_VERSION );
-	wp_style_add_data( 'guard-building-style', 'rtl', 'replace' );
+	 wp_enqueue_style( 'guard-building-style', get_stylesheet_uri(), array(), _S_VERSION );
+	
+	 wp_style_add_data( 'guard-building-style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'guard-building-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 
