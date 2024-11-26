@@ -751,7 +751,8 @@ textarea {
 
 .post,
 .page {
-	margin: 0 0 1.5em;
+	
+	margin: 0 20px;
 }
 
 .updated:not(.published) {
@@ -1035,5 +1036,37 @@ textarea {
 .main-navigation ul ul{
 	display: block;
 }
+.hprds{
+	width: 100vw;
+    height: 100vh;   
+    display: flex;
+}
+.hprd{
+	width: 30%;
+	height: 300px ;
+	background-color: violet;
+	border : 1px solid black;
+	
+}
+
+.overlay {
+	position: absolute; 
+	bottom: 0; 
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.5); /* Black see-through */
+	color: #f1f1f1; 
+	width: 100%;
+	transition: .5s ease;
+	opacity:0;
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+  }
+  
+  .hprd:hover .overlay {
+	opacity: 1;
+  }
+  
 
 
