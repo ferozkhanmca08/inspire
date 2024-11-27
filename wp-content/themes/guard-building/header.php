@@ -26,6 +26,7 @@
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'guard-building' ); ?></a>
 
 	<header id="masthead" class="site-header">
+	  <div class="headerinfo">
 		<div class="site-branding" style="width:30%;float:left;">
 			
 			<div class="gblogo">
@@ -60,4 +61,5 @@
 			?>
 		</nav><!-- #site-navigation -->
 		</div>
+	  </div>
 	</header><!-- #masthead -->
