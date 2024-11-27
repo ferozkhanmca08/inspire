@@ -13,28 +13,32 @@ get_header();
                 <div class="info-item">
                     <i class="icon">📞</i>
                     <h3>Phone Number</h3>
-                    <p>+91 80004 36640</p>
+                    <p><?php the_field('phone_number',21) ?></p>
                 </div>
                 <div class="info-item">
                     <i class="icon">✉️</i>
-                    <h3>Email</h3>
-                    <p>info@expertwebdesigning.com</p>
-                    <p>sales@expertwebdesigning.com</p>
+                    <h3>Email</h3>                    
+                    <p><?php the_field('semail',21) ?></p>
                 </div>
                 <div class="info-item">
                     <i class="icon">📍</i>
                     <h3>Location</h3>
-                    <p>518, Rhythm Plaza, Amar Javan Circle,<br>Nikol, Ahmedabad, Gujarat - 382350</p>
+                    <p><?php the_field('address',21) ?></p>
                 </div>
                 <div class="info-item">
                     <i class="icon">⏰</i>
-                    <h3>Working Hours</h3>
-                    <p>Monday to Saturday<br>09:00 AM to 06:00 PM</p>
+                    <h3>Working Hours</h3>                    
+                    <p><?php  the_field('working_days',21) ?></p>                   
                 </div>
             </div>
         </div>
         <div class="contact-form">
-            
+        <h2>Location Map</h2>
+        <iframe src="<?php the_field('map_link',21) ?>"
+             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+
         </div>
     </div>
 <?php get_footer() ?>
