@@ -26,6 +26,9 @@
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'guard-building' ); ?></a>
 
 	<header id="masthead" class="site-header">
+	  <div class="topmenu">
+		<p>Phone: <?php the_field('phone_number',21) ?>   email: <?php the_field('semail',21) ?> </p>
+	  </div>
 	  <div class="headerinfo">
 		<div class="site-branding" style="width:30%;float:left;">
 			
@@ -48,7 +51,7 @@
 				<p class="site-description"><?php echo $guard_building_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
 			<?php endif; ?>
 		</div><!-- .site-branding -->
-        <div class="gbmenu" style="width:70%;float:right;">
+        <div class="gbmenu">
 		<nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'guard-building' ); ?></button>
 			<?php
