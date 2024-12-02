@@ -41,4 +41,5 @@ get_header();
 
         </div>
     </div>
+    <?php echo do_shortcode('[wpforms id="569" title="true"]'); ?>
 <?php get_footer() ?>
