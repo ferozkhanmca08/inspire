@@ -27,7 +27,10 @@
 
 	<header id="masthead" class="site-header">
 	  <div class="topmenu">
-		<p>Phone: <?php the_field('phone_number',21) ?>   email: <?php the_field('semail',21) ?> </p>
+		<?php $phone = get_field('phone_icon',21);
+		$email = get_field('email_icon',21);  ?>
+		<p><img class ="sicons" src="<?php echo $phone['sizes']['medium_large'] ?>" /><?php the_field('phone_number',21) ?>
+		 <img class ="sicons" src="<?php echo $email['sizes']['medium_large'] ?>" /> <?php the_field('semail',21) ?> </p>
 	  </div>
 	  <div class="headerinfo">
 		<div class="site-branding" style="width:30%;float:left;">

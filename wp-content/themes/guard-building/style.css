@@ -801,6 +801,7 @@ textarea {
 	padding: 0;
 }
 
+
 /* Make sure logo link wraps around logo image. */
 .custom-logo-link {
 	display: inline-block;
@@ -1087,8 +1088,10 @@ textarea {
 	margin: 0;
     padding: 0;
     width: 100%;
-    min-height: 129px;
+    min-height: 142px;
+	background-color: #205081;
   }
+  
   /* contact  start */
 
   .contact-container {
@@ -1269,7 +1272,18 @@ button:hover {
 .social-icons a:hover {
     color: #007bff;
 }
-
+.social-icons img {
+	margin:0px;
+	padding:0px;
+	width:30px;
+	height:30px;
+}
+.sicons {
+	padding:0px;
+	margin: 0 10px 0 10px;
+	width:30px;
+	height:30px;
+}
 @media (max-width: 768px) {
     .footer-container {
         flex-direction: column;

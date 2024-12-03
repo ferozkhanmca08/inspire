@@ -53,10 +53,10 @@
 				  $insticon = get_field('instagram_iGB',21);
 				  $licon = get_field('linkedin_iGB',21); ?>			
             <div class="social-icons">
-                <a target="_blank" title="GB Facebook" href="<?php the_field('facebook_gb',21) ?>"><i class="fab fa-facebook-f"></i><img src="<?php echo $fbicon['sizes']['medium_large'] ?>" /></a>
-                <a target="_blank" title="GB Twitter" href="<?php the_field('twitter_gb',21) ?>"><i class="fab fa-twitter"></i><img src="<?php echo $ticon['sizes']['medium_large'] ?>" /></a>
-                <a target="_blank" title="GB Instagram" href="<?php the_field('instagram_gb',21) ?>"><i class="fab fa-instagram"></i><img src="<?php echo $insticon['sizes']['medium_large'] ?>" /></a>
-                <a target="_blank" title="GB Instagram" href="<?php the_field('linkedin_gb',21) ?>"><i class="fab fa-linkedin"></i><img src="<?php echo $licon['sizes']['medium_large'] ?>" /></a>
+                <a target="_blank" title="GB Facebook" href="<?php the_field('facebook_gb',21) ?>"><img src="<?php echo $fbicon['sizes']['medium_large'] ?>" /></a>
+                <a target="_blank" title="GB Twitter" href="<?php the_field('twitter_gb',21) ?>"><img src="<?php echo $ticon['sizes']['medium_large'] ?>" /></a>
+                <a target="_blank" title="GB Instagram" href="<?php the_field('instagram_gb',21) ?>"><img src="<?php echo $insticon['sizes']['medium_large'] ?>" /></a>
+                <a target="_blank" title="GB Instagram" href="<?php the_field('linkedin_gb',21) ?>"><img src="<?php echo $licon['sizes']['medium_large'] ?>" /></a>
                 <a href="#"><i class="fab fa-github"></i></a>
             </div>
         </div>
