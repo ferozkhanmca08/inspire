@@ -1290,7 +1290,9 @@ button:hover {
         align-items: center;
     }
 }
-
+.is-search-submit{
+	display: inline-table !important;
+}
 
   
 
