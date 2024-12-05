@@ -1320,9 +1320,47 @@ button:hover {
 .emailinfo-text{
 	padding:0;
 	margin:0 0 0 10px;
-	display: inline-block;	
-	
+	display: inline-block;		
 }
+/* warranty section */
+.wrnt {	
+	flex-wrap: wrap;	
+	align-items: center;	
+	gap: 20px;	
+  }
+  .wrnt-cntn {
+	width: 50%;
+	text-align: left;
+	float:left;	
+  }
+ 
+ 
+  .wrnt-img {
+	width: 50%;
+	float:right;
+	margin:0px;
+	padding:0px;	
+	
+  }
+  .wrnt-img img {
+	max-width: 100%;
+	height: auto;
+	
+  }
+  
+  .wrnt-logos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 20px;
+	width:100%;
+	gap: 20px;	
+	background-color: #1c1c1c;
+  }
+  .wrnt-logos img {
+	max-width: 60px;
+	height: auto;
+  }
 
 
 
