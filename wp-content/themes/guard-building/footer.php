@@ -13,9 +13,11 @@
 <footer class="footer">
         <div class="footer-container">
             <div class="footer-column">
-                <h3>Guard Buildings</h3>
-                <p>we are passitionate work journey to overcome challeges provided customer support. what will be say that will done.</p>
-                <?php echo do_shortcode('[ivory-search id="791" title="Default Search Form"]');?>
+                <!--h3>Guard Buildings</h3-->
+                <!--p>we are passitionate work journey to overcome challeges provided customer support. what will be say that will done.</p-->
+                <?php //echo do_shortcode('[ivory-search id="791" title="Default Search Form"]');?>
+                <h3>Subscribe For News Letter</h3>
+                <?php echo do_shortcode('[wpforms id="806"]');?>
             </div>
             <div class="footer-column">
                 <h3>PRODUCTS</h3>

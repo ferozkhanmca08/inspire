@@ -35,6 +35,7 @@
 		 <img class ="sicons" src="<?php echo $location['sizes']['medium_large']; ?>" /><?php the_field('location',21); ?>
 		 <img class ="sicons" src="<?php echo $phone['sizes']['medium_large']; ?>" /><?php the_field('phone_number',21); ?>
 		 <img class ="sicons" src="<?php echo $email['sizes']['medium_large']; ?>" /> <?php the_field('semail',21); ?> 
+		 <a href="#freequote">Free Quote</a>
 		</p>
 	  </div>
 	  <div class="headerinfo">

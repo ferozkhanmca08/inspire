@@ -1293,6 +1293,38 @@ button:hover {
 .is-search-submit{
 	display: inline-table !important;
 }
+#wpforms-submit-569
+{
+	display: inline-block;
+    width: 126px;
+}
+#freequote {
+	background-color:#d4f4ff;
+	color:#555;
+	padding:20px;
+	border:1px solid #beabe5;
+	text-align: center;
+}
+.emailinfo{
+	padding:0;
+	margin:0;
+	
+}
+.emailinfo-icon{
+	padding:0;
+	margin:0;
+	float:left;
+	display: inline-block;
+	
+}
+.emailinfo-text{
+	padding:0;
+	margin:0 0 0 10px;
+	display: inline-block;	
+	
+}
+
+
 
   
 
