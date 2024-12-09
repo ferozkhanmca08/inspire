@@ -1362,6 +1362,49 @@ button:hover {
 	height: auto;
   }
 
+  .login .gbwp-login-logo {
+	text-align: center;
+}
+
+.login .gbwp-login-logo a {	
+	background-image: url(../images/w-logo-blue.png);
+	background-size: 84px;
+	background-position: center top;
+	background-repeat: no-repeat;
+	color: #3c434a;
+	height: 84px;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.3;
+	margin: 0 auto 25px;
+	padding: 0;
+	text-decoration: none;
+	width: 84px;
+	text-indent: -9999px;
+	outline: none;
+	overflow: hidden;
+	display: block;
+}
+.home_features
+{	
+	padding:0px;
+	margin:0 0 2px 0;
+	display:inline-block;
+}
+.hleft{
+	width:15%;
+	float:left;	
+	margin:0;
+	padding:0;	
+}
+.hright{
+	width:80%;
+	float:left;
+	color:#fff;
+	margin:0px;
+	padding:0px;
+}
+
 
 
   
