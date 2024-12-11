@@ -1404,6 +1404,54 @@ button:hover {
 	margin:0px;
 	padding:0px;
 }
+/* products engineering section  */
+.bgeng{
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(to bottom, #003366, #66b2ff);
+	color: #fff;
+}
+.bgtable-container {
+	margin: 20px auto;
+	max-width: 90%;
+	background-color: #f8f9fa;
+	color: #333;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	overflow-x: auto;
+  }
+
+  .bgtable {
+	width: 100%;
+	border-collapse: collapse;
+  }
+
+ 
+
+  .bgtable th, td {
+	padding: 12px;
+	text-align: center;
+	border: 1px solid #ddd;
+  }
+
+  .bgtable th {
+	font-weight: bold;
+  }
+
+ .bgtable tr:nth-child(even) {
+	background-color: #f2f2f2;
+  }
+
+ .bgtable tr:hover {
+	background-color: #e6f7ff;
+  }
+
+  @media screen and (max-width: 768px) {
+   .bgtable th, td {
+	  padding: 8px;
+	  font-size: 0.9em;
+	}
+  }
 
 
 
