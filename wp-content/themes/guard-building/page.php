@@ -15,8 +15,7 @@
 get_header();
 ?>
 
-	<main id="primary" class="site-main">
-        <?php echo 'page.php file'; ?>
+	<main id="primary" class="site-main">       
 		<?php
 		while ( have_posts() ) :
 			the_post();

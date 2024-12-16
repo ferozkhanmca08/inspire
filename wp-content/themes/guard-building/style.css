@@ -1009,7 +1009,8 @@ textarea {
     display: block;
     padding: 10px 15px;
     text-decoration: none;
-    color: #333; /* Change text color */
+	color: #fff;
+    /* color: #333; Change text color */
     font-size: 16px; /* Change font size */
     font-weight: bold;
     text-transform: uppercase;
@@ -1018,12 +1019,14 @@ textarea {
 
 /* Add a hover effect */
 #primary-menu li a:hover {
-    color: #0073e6; /* Change color on hover */
+   /* color: #0073e6; Change color on hover */
+   color: #e96b00;
 }
 
 /* Optional: Add a background to the entire menu when hovering over a menu item */
 #primary-menu li:hover {
-    background-color: #f5f5f5;
+    /* background-color: #f5f5f5; */
+	background-color: #2784B4;
 }
 .current-menu-item a, .current_page_parent a{	
 	border-bottom: 2px solid red;
@@ -1280,9 +1283,9 @@ button:hover {
 }
 .sicons {
 	padding:0px;
-	margin: 0 10px 0 10px;
-	width:30px;
-	height:30px;
+	margin: 0px;
+	width:23px;
+	height:23px;
 }
 @media (max-width: 768px) {
     .footer-container {
@@ -1453,7 +1456,56 @@ button:hover {
 	}
   }
 
+/* top bar */
 
+.top-bar {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	gap: 10px;
+  }
+  
+  .top-bar > div {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	font-size: 14px;
+  }
+  
+  .top-bar > div a {
+	text-decoration: none;
+	color: #fff;
+  }
+  
+   .top-bar > div a:hover {
+	color: #ffa500; /* Orange hover effect */
+  }
+  
+  .cta-button a.free-quote {
+	background-color: #ff7a00; /* Orange button color */
+	color: #fff;
+	padding: 8px 15px;
+	border-radius: 5px;
+	font-weight: bold;
+  }
+  
+  .cta-button a.free-quote:hover {
+	background-color: #e96b00; /* Slightly darker orange */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+	.top-bar {
+	  flex-direction: column;
+	  align-items: flex-start;
+	}
+  
+	.cta-button {
+	  margin-top: 10px;
+	}
+  }
+  
 
   
 
