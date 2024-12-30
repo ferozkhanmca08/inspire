@@ -1505,7 +1505,21 @@ button:hover {
 	  margin-top: 10px;
 	}
   }
-  
+  /* Hiding title */
+  .entry-title {
+	display: none !important;
+	}
+	.selector{
+		opacity: 0;
+		transition: 0.5s ease-in-out;
+	}
+	.selector:hover{
+		opacity: 1;
+	}
+
+	
+
+	
 
   
 
