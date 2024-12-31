@@ -52,7 +52,7 @@
                         <span><img class ="sicons" src="<?php echo $hiring['sizes']['medium_large']; ?>" /></span> <a href="#freequote">We Are Hiring</a>
                     </div>
                     <div class="cta-button">
-                        <a href="#freequote" class="free-quote">Free Quote</a>
+                        <a href="<?php echo site_url().'/freequote'; ?>" class="free-quote">Free Quote</a>
                     </div>
                 </div>
             </div>
