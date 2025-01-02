@@ -975,10 +975,13 @@ textarea {
 	margin:0;
 	padding: 0;
 	background-color: #205081;
-	width:70%;
-	float:right;
-	height:126px;
+ 	width: 44%;
+    float:right;
+    height: 90px;
 }
+.gblogo {
+	width: 60% !important;
+	}
 .topmenu{
 	margin:0;
 	padding:0;
@@ -1001,33 +1004,36 @@ textarea {
 /* Style the individual list items */
 #primary-menu li {
     display: inline-block; /* Horizontally align the menu items */
-    margin-right: 20px; /* Space between menu items */
+    /* margin-right: 20px; Space between menu items */
 }
 
 /* Style the anchor tags (links) */
 #primary-menu li a {
     display: block;
-    padding: 10px 15px;
+    padding: 10px 20px;
     text-decoration: none;
 	color: #fff;
     /* color: #333; Change text color */
-    font-size: 16px; /* Change font size */
+	font-size: 13px!important; /* Change font size */
     font-weight: bold;
-    text-transform: uppercase;
+	text-transform: camelcase;    
     transition: color 0.3s ease; /* Smooth transition for hover */
 }
 
 /* Add a hover effect */
 #primary-menu li a:hover {
    /* color: #0073e6; Change color on hover */
-   color: #e96b00;
+   color: #FFFFFF;
 }
 
 /* Optional: Add a background to the entire menu when hovering over a menu item */
 #primary-menu li:hover {
     /* background-color: #f5f5f5; */
-	background-color: #2784B4;
+	background-color: #FE902C;
 }
+.sub-menu li a{
+	border-bottom: 1px solid #FFF;
+	}
 .current-menu-item a, .current_page_parent a{	
 	border-bottom: 2px solid red;
 	
@@ -1091,7 +1097,7 @@ textarea {
 	margin: 0;
     padding: 0;
     width: 100%;
-    min-height: 142px;
+    min-height: 92px;
 	background-color: #205081;
   }
   
@@ -1462,8 +1468,8 @@ button:hover {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	justify-content: space-between;
-	gap: 10px;
+	justify-content: flex-start;
+	gap: 20px;
   }
   
   .top-bar > div {
@@ -1519,7 +1525,7 @@ button:hover {
 		font-size: 18px;
 		border: none;
 		outline: none;
-		background-color: red;
+		background-color: #e96b00;
 		color: white;
 		cursor: pointer;
 		padding: 15px;
@@ -1527,7 +1533,7 @@ button:hover {
 	  }
 	  
 	  #myBtn:hover {
-		background-color: #555;
+		background-color: ##FF7A00;
 	  }	
 
 
