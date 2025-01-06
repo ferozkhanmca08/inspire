@@ -1536,6 +1536,39 @@ button:hover {
 		background-color: ##FF7A00;
 	  }	
 
+	  /* css menu mobile*/
+
+	  @media screen and (min-width: 320px) and (max-width: 460px) {  
+        .headerinfo{
+            min-height: 80px !important;
+            padding:20px 0!important;
+        }
+        .gbmenu { 
+            width: 44%; 
+            height: 60px;
+        }
+		.gblogo{
+			width: 100% !important;
+		}
+        .top-bar > div { 
+            gap: 10px;
+        }
+        .top-bar { 
+            padding: 10px;
+        }
+        .post, .page {
+            margin: 0 0px;
+        }
+        .footer { 
+            padding: 0px 0px;  
+            text-align: center;
+        }
+        .footer-column {
+            flex: 1 1 20px;
+        }
+      }
+
+
 
 
 
