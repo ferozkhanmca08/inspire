@@ -35,13 +35,7 @@
 			  $hiring = get_field('hiring',21); 
 			  $timing = get_field('timing',21); 
 		?>
-                <div class="top-bar">
-                    <div class="location">
-                        <span><img class ="sicons" src="<?php echo $location['sizes']['medium_large']; ?>" /></span> <?php the_field('location',21); ?>
-                    </div>
-                    <div class="hours">
-                        <span><img class ="sicons" src="<?php echo $timing['sizes']['medium_large']; ?>" /></span> Mon - Sat
-                    </div>
+                <div class="top-bar">                    
                     <div class="email">
                         <span><img class ="sicons" src="<?php echo $email['sizes']['medium_large']; ?>" /></span> <a href="mailto:<?php the_field('semail',21); ?>"><?php the_field('semail',21); ?></a>
                     </div>
